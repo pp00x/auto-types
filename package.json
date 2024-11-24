@@ -1,5 +1,5 @@
 {
-  "name": "auto-types",
+  "name": "@pp00x/auto-types",
   "version": "1.0.0",
   "description": "Automatically installs TypeScript type definitions",
   "main": "dist/index.js",
