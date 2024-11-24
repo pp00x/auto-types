@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Automatically installs TypeScript type definitions",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "bin": {
     "auto-types": "./dist/cli.js"
   },
@@ -25,5 +29,12 @@
   "devDependencies": {
     "@types/node": "^18.0.0",
     "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pp00x/auto-types.git"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
