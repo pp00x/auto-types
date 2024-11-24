@@ -13,7 +13,7 @@ Automatically install TypeScript type definitions for your project dependencies 
 ## Installation 📥
 
 ```bash
-npm install -g auto-types
+npm install -g @pp00x/auto-types
 ```
 
 ## Usage 💻
