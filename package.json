@@ -1,0 +1,29 @@
+{
+  "name": "auto-types",
+  "version": "1.0.0",
+  "description": "Automatically installs TypeScript type definitions",
+  "main": "dist/index.js",
+  "bin": {
+    "auto-types": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "typescript",
+    "types",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
